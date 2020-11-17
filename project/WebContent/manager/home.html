@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Manager Homepage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="content">
+		<h2>Welcome Manager</h2>
+
+		<a href="./requests/details.html"><input type="submit" name="confirm" value="View all pending requests from my employees"/></a><br/>
+
+		<a href="./resolved/resolved.html"><input type="submit" name="confirm" value="View all resolved requests"/></a><br/>
+		
+		<a href="./employees/details.html"><input type="submit" name="confirm" value="View all employees"/></a><br/>
+			
+		<a href="./submitRequest/reimbursementrequest.html"><input type="submit" name="confirm" value="Submit reimbursement request"/></a><br/>
+		
+		<a href="./details/details.html"><input type="submit" name="confirm" value="View or Update my information"/></a><br/>
+		
+		<form id="logout" action="./servlets/logout" method="post">
+			<input type="submit" id="logoutbutton" name="confirm" value="logout"/>
+		</form>
+	</div>
+</body>
+</html>
