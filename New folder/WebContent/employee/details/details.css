@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(227, 227, 227);
+}
+
+#content {
+	text-align: center;
+	margin: auto;
+  	width: 100%;
+  	padding: 10px;
+}
+
+#profile {
+	margin-left:auto;
+	margin-right:auto;
+	width: auto;
+
+}
+
+input, select {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:15px;
+  	width:100px;
+}
+
+#submit {
+	margin-top: 30px;
+}
+
+#img {
+	font-size:10pt;
+	padding-left:75px;
+}
+
+#confirm {
+	color: green;
+}
